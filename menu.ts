@@ -37,38 +37,3 @@ class MenuEntry {
         scene.systemMenu.addEntry(this.name, this.handler, this.icon);
     }
 }
-
-
-// let entry = locket.createMenuEntry("Test", function () {
-
-// }, img`
-//     3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
-//     3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
-//     3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
-//     3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
-//     3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
-//     3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
-//     3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
-//     3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
-//     3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
-//     3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
-//     3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
-//     3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
-//     3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
-//     3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
-//     3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
-//     3 3 3 3 3 3 3 3 3 3 3 3 3 3 3 3
-// `);
-
-// entry.register();
-
-namespace locket {
-    export function createMenuEntry(name: string, handler: () => void, icon: Image): MenuEntry {
-        function nameToFunction(): string {
-            return name.toUpperCase();
-        }
-
-        let createdEntry = new MenuEntry(nameToFunction, handler, icon);
-        return createdEntry;
-    }
-}

@@ -10,7 +10,8 @@
         "README.md",
         "assets.json",
         "project.ts",
-        "menu.ts"
+        "menu.ts",
+        "docs.ts"
     ],
     "testFiles": [
         "test.ts"
