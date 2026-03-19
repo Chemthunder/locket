@@ -1,0 +1,27 @@
+{
+    "name": "Locket",
+    "description": "",
+    "dependencies": {
+        "device": "*",
+        "Geode": "pub:44561-72775-66820-04014"
+    },
+    "files": [
+        "main.ts",
+        "README.md",
+        "assets.json",
+        "project.ts",
+        "menu.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "4.0.12",
+        "targetId": "arcade"
+    },
+    "supportedTargets": [
+        "arcade"
+    ],
+    "preferredEditor": "tsprj",
+    "languageRestriction": "javascript-only"
+}
